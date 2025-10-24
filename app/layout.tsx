@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import GetApp from "./components/GetApp";
 import HomeFeatures from "./components/HomeFeatures";
 import ChilloutlyNameAndLogo from "./components/ChilloutlyNameAndLogo";
+import Image from "next/image";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
 export const metadata: Metadata = {
   title: "Chilloutly",
@@ -29,19 +29,46 @@ export default function RootLayout({
     <html lang="en">
      
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased w-full bg-grey-200`}
+        className={`antialiased w-full bg-white`}
       >
-        <div className="flex content-between justify-between w-full "> 
-           <div className="flex  bg-green-200 mx-[100px]">
-            <ChilloutlyNameAndLogo/>
+        <div className="flex flex-col pt-[20px]  bg-[url('/img/image1.svg')] bg-no-repeat bg-cover bg-center">
+          {/* AppBar */}
+          <div className="fixed flex content-between justify-between w-full "> 
+              <div className="flex   mx-[100px]">
+               <ChilloutlyNameAndLogo/>
+
+               </div>
+               <div className="flex items-center justify-center mx-[100px] gap-[42px]">
+                 <HomeFeatures/>
+                 <GetApp/>
+              </div>
+          </div>
+
+           <div className={` flex flex-col items-center py-[24px] w-full px-[200px] bg-white/0`}>
+                   <span className="font-semibold text-white text-[64px] text-center">Create Discover, and Experience Events <span className="text-[#6F87F8]">Like Never Before</span></span>
+                   <span className="text-white font-normal text-[18px] text-center">From intimate gatherings to grand festivals — host, manage, and attend events effortlessly, all in one app.</span>
+                   <div className="flex flex-col items-center bg-[#E9EDFE30]/19 p-[26px] rounded-[7px] gap-[20px]">
+                     <div className="flex gap-[8px] items-center justify-center bg-transparent">
+                       <Image
+                       src={'/img/key.png'}
+                       alt="Phone"
+                       height={12}
+                       width={14}
+                       />
+                       <span className="font-semibold text-[18px] text-white">Our Security, our Priority</span>
+                     </div>
+                     
+                     <span className="font-normal text-white text-[16px]">Secured with industry-standard 256-bit encryption. Your data and funds are protected by the same technology trusted by leading global banks.</span>
            
-            </div>
-            <div className="flex mx-[100px]">
-              <HomeFeatures/>
-              <GetApp/>
-           </div>
+                   </div>
+                 </div>
+
+          
         </div>
-        {children}
+       
+        <div className="bg-white flex-1">
+             {children}
+          </div>
       </body>
     </html>
   );
