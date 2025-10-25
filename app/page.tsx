@@ -34,12 +34,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col bg-white items-center justify-center p-[20px]  sm:p-[133px] w-full gap-[80px]">
-        <div className="flex flex-col md:flex-row items-center justify-center gap-4 ">
+      <div className="flex flex-col bg-white items-center justify-center p-[20px]  sm:p-[133px] w-full gap-[80px] w-full bg-red-200">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-4 w-full">
           <div className="flex flex-col">
             <span className="font-semibold text-[40px] text-black">Why <span className="text-[#6F87F8]">Chilloutly?</span></span>
             <div className="flex flex-col gap-[16px] py-[10px] px-[3px]">
-              {whys.map((text)=><div key={text} className="flex gap-[8px]">
+              {whys.map((text)=><div key={text} className="flex gap-[8px] items-center">
                 <Image
                   src={"/img/arrow-right.png"}
                   alt="Arrow right"
