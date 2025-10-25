@@ -21,7 +21,7 @@ export default function Home() {
           alt="Phone"
           height={700}
           width={400}
-          className="h-[200px] w-[200px] mm:h-[700px] sm:w-[400px]"
+          className="h-[200px] w-[200px] sm:h-[700px] sm:w-[400px]"
           />
           <div className="flex flex-col gap-[25px]">
             <WhatYoucanDoItem title="Event Creation" description="Create or join hangouts with just a few taps — add your title, budget, location, and date."/>
