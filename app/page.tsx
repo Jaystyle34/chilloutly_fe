@@ -94,7 +94,7 @@ export default function Home() {
 
             <div className="flex flex-col">
               <span className="text-black font-semibold text-[21px] text-[#2D2D2D]">Connect with us</span>
-              <span className="text-black">hello@chilloutly.com</span>
+              <span className="text-black">chilloutly1@gmail.com</span>
             </div>
 
           </div>
