@@ -10,17 +10,18 @@ const whys = [
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-full  items-start justify-center bg-red-200 ">
-      <div className="flex flex-col items-center justify-center w-full  bg-[#F3FDF9] py-[113px] gap-[24px]">
+      <div className="flex flex-col items-center justify-center w-full  bg-[#F3FDF9] py-[20px] md:py-[113px] gap-[24px]">
         <div className="flex flex-col items-center text-black ">
           <span className="font-semibold text-[40px] text-black">What You Can Do With <span className="text-[#6F87F8]">Chilloutly</span></span>
           <span className="font-normal text-[18px] text-[#3A3A3A]">Save, invest, borrow, and grow on one trusted platform, built for your financial success.</span>
         </div>
-        <div className="flex flex-col md:flex-row gap-[37px]">
+        <div className="flex flex-col lg:flex-row gap-[37px]">
           <Image
           src={'/img/phone.png'}
           alt="Phone"
           height={700}
           width={400}
+          className="h-[200px] w-[200px] mm:h-[700px] sm:w-[400px]"
           />
           <div className="flex flex-col gap-[25px]">
             <WhatYoucanDoItem title="Event Creation" description="Create or join hangouts with just a few taps — add your title, budget, location, and date."/>
@@ -33,7 +34,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col bg-white items-center justify-center p-[133px] w-full gap-[80px]">
+      <div className="flex flex-col bg-white items-center justify-center p-[20px]  sm:p-[133px] w-full gap-[80px]">
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 ">
           <div className="flex flex-col">
             <span className="font-semibold text-[40px] text-black">Why <span className="text-[#6F87F8]">Chilloutly?</span></span>
@@ -57,8 +58,8 @@ export default function Home() {
           />
         </div>
 
-        <div className="bg-[#F8F9FF] px-[16px] py-[60px] md:px-[55px]">
-          <div className="flex flex-col md:flex-row py-[1px] md:p-[0px] bg-[#6F87F8] rounded-[20px] items-center">
+        <div className="bg-[#F8F9FF] px-[16px] py-[60px] md:px-[55px] g-4 lg:gap-1">
+          <div className="flex flex-col lg:flex-row py-[1px] md:p-[0px] bg-[#6F87F8] rounded-[20px] items-center">
           <div className="flex flex-col pl-[60px]">
             <span className="font-semibold text-[40px] text-white">Get the App</span>
             <span className="text-white font-normal text-[16px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</span>
@@ -69,6 +70,7 @@ export default function Home() {
           alt="Image"
           height={434}
           width={580}
+          className="h-[200px] w-[250px] md:h-[434px] md:w-[580px]"
           />
 
           </div>
@@ -78,8 +80,8 @@ export default function Home() {
       </div>
 
 
-      <div className="bg-[#272F57] py-[60px] px-[55px]">
-        <div className="flex flex-col md:flex-row gap-4 bg-white p-[60px]">
+      <div className="bg-[#272F57] py-[20px] px-[20px] sm:py-[60px]  sm:px-[55px]">
+        <div className="flex flex-col md:flex-row gap-4 bg-white p-[20px] sm:p-[60px]">
           <div className="flex flex-col">
             <div className="flex items-center gap-[14px]">
               <Image
