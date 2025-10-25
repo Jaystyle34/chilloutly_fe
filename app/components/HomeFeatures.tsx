@@ -22,7 +22,7 @@ function FeatureItem({title, selected= false, href ='/'}: {
     href?: string
 }){
     return (<Link href={href}>
-    <div className={`text-[14px] font-normal ${!selected? " text-white ":"text-[#84ECBF]"}`}>{title}</div>
+    <div className={`text-[14px] font-normal whitespace-nowrap ${!selected? " text-white ":"text-[#84ECBF]"}`}>{title}</div>
     </Link>);
 }
 //#84ECBF

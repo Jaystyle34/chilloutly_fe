@@ -4,6 +4,7 @@ import GetApp from "./components/GetApp";
 import HomeFeatures from "./components/HomeFeatures";
 import ChilloutlyNameAndLogo from "./components/ChilloutlyNameAndLogo";
 import Image from "next/image";
+import AppBar from "./components/AppBar";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -33,16 +34,8 @@ export default function RootLayout({
       >
         <div className="flex flex-col pt-[20px] gap-4  bg-[url('/img/image1.svg')] bg-no-repeat bg-cover bg-center">
           {/* AppBar */}
-          <div className="fixed flex content-between justify-between w-full "> 
-              <div className="flex   mx-[100px]">
-               <ChilloutlyNameAndLogo/>
-
-               </div>
-               <div className="flex items-center justify-center mx-[100px] gap-[42px]">
-                 <HomeFeatures/>
-                 <GetApp/>
-              </div>
-          </div>
+        
+          <AppBar/>
 
           <div className={` flex flex-col items-center py-[24px] pt-[100px] w-full  px-[20px] md:px-[200px] bg-white/0`}>
             <span className="font-normal md:font-semibold text-white text-[25px] mdm:text-[64px] text-center">Create Discover, and Experience Events <span className="text-[#6F87F8]">Like Never Before</span></span>
