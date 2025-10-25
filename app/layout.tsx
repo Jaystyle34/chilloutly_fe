@@ -31,7 +31,7 @@ export default function RootLayout({
       <body
         className={`antialiased w-full bg-white`}
       >
-        <div className="flex flex-col pt-[20px]  bg-[url('/img/image1.svg')] bg-no-repeat bg-cover bg-center">
+        <div className="flex flex-col pt-[20px] gap-4  bg-[url('/img/image1.svg')] bg-no-repeat bg-cover bg-center">
           {/* AppBar */}
           <div className="fixed flex content-between justify-between w-full "> 
               <div className="flex   mx-[100px]">
@@ -44,24 +44,24 @@ export default function RootLayout({
               </div>
           </div>
 
-           <div className={` flex flex-col items-center py-[24px] w-full px-[200px] bg-white/0`}>
-                   <span className="font-semibold text-white text-[64px] text-center">Create Discover, and Experience Events <span className="text-[#6F87F8]">Like Never Before</span></span>
-                   <span className="text-white font-normal text-[18px] text-center">From intimate gatherings to grand festivals — host, manage, and attend events effortlessly, all in one app.</span>
-                   <div className="flex flex-col items-center bg-[#E9EDFE30]/19 p-[26px] rounded-[7px] gap-[20px]">
-                     <div className="flex gap-[8px] items-center justify-center bg-transparent">
-                       <Image
-                       src={'/img/key.png'}
-                       alt="Phone"
-                       height={12}
-                       width={14}
-                       />
-                       <span className="font-semibold text-[18px] text-white">Our Security, our Priority</span>
-                     </div>
-                     
-                     <span className="font-normal text-white text-[16px]">Secured with industry-standard 256-bit encryption. Your data and funds are protected by the same technology trusted by leading global banks.</span>
-           
-                   </div>
-                 </div>
+          <div className={` flex flex-col items-center py-[24px] pt-[100px] w-full  px-[20px] md:px-[200px] bg-white/0`}>
+            <span className="font-normal md:font-semibold text-white text-[25px] mdm:text-[64px] text-center">Create Discover, and Experience Events <span className="text-[#6F87F8]">Like Never Before</span></span>
+            <span className="text-white font-normal text-[18px] text-center">From intimate gatherings to grand festivals — host, manage, and attend events effortlessly, all in one app.</span>
+            <div className="flex flex-col items-center bg-[#E9EDFE30]/19 p-[26px] rounded-[7px] gap-[20px]">
+              <div className="flex gap-[8px] items-center justify-center bg-transparent">
+                <Image
+                src={'/img/key.png'}
+                alt="Phone"
+                height={12}
+                width={14}
+                />
+                <span className="font-semibold text-[18px] text-white text-center">Our Security, our Priority</span>
+              </div>
+              
+              <span className="font-normal text-white text-[16px] text-center">Secured with industry-standard 256-bit encryption. Your data and funds are protected by the same technology trusted by leading global banks.</span>
+    
+            </div>
+          </div>
 
           
         </div>

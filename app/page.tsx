@@ -12,16 +12,16 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center h-full  items-start justify-center bg-red-200 ">
       <div className="flex flex-col items-center justify-center w-full  bg-[#F3FDF9] py-[20px] md:py-[113px] gap-[24px]">
         <div className="flex flex-col items-center text-black ">
-          <span className="font-semibold text-[40px] text-black">What You Can Do With <span className="text-[#6F87F8]">Chilloutly</span></span>
-          <span className="font-normal text-[18px] text-[#3A3A3A]">Save, invest, borrow, and grow on one trusted platform, built for your financial success.</span>
+          <span className="font-semibold text-[30px] md:text-[40px] text-black text-center">What You Can Do With <span className="text-[#6F87F8]">Chilloutly</span></span>
+          <span className="font-normal text-[18px] text-[#3A3A3A] text-center">Save, invest, borrow, and grow on one trusted platform, built for your financial success.</span>
         </div>
-        <div className="flex flex-col lg:flex-row gap-[37px]">
+        <div className="flex flex-col lg:flex-row gap-[37px] items-center">
           <Image
           src={'/img/phone.png'}
           alt="Phone"
           height={700}
           width={400}
-          className="h-[200px] w-[200px] sm:h-[700px] sm:w-[400px]"
+          className="h-[500px] w-[250px] sm:h-[700px] sm:w-[400px]"
           />
           <div className="flex flex-col gap-[25px]">
             <WhatYoucanDoItem title="Event Creation" description="Create or join hangouts with just a few taps — add your title, budget, location, and date."/>
