@@ -4,6 +4,9 @@ import GetTheApp from "../components/GetTheApp";
 
 export default function Page(){
     return (<div className="bg-white flex flex-col">
+         <div className="flex flex-col pt-[20px] gap-4  bg-[url('/img/image1.svg')] bg-no-repeat bg-fill bg-center bg-[#0C1332]">
+            <span className="text-white text-center py-[100px] font-normal md:font-semibold  text-[30px] md:text-[64px]">Frequently Asked Questions</span>
+        </div>
          <div className="flex flex-col bg-white items-center justify-center p-[20px]  sm:p-[133px] w-full gap-[80px] w-full bg-red-200">
             <span className="text-center text-[#3A3A3A] font-normal text-[18px]">Save, invest, borrow, and grow on one trusted platform, built for your financial success.</span>
             <FAQ/>
