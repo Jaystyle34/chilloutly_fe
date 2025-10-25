@@ -80,8 +80,8 @@ export default function Home() {
       </div>
 
 
-      <div className="bg-[#272F57] py-[20px] px-[20px] sm:py-[60px]  sm:px-[55px]">
-        <div className="flex flex-col md:flex-row gap-4 bg-white p-[20px] sm:p-[60px]">
+      <div className="bg-[#272F57]  py-[20px] px-[20px] sm:py-[60px]  sm:px-[55px]">
+        <div className="flex flex-col md:flex-row gap-4 bg-white p-[20px] sm:p-[60px] rounded-[20px]">
           <div className="flex flex-col">
             <div className="flex items-center gap-[14px]">
               <Image
