@@ -79,7 +79,7 @@ export default function Home() {
 
 
       <div className="bg-[#272F57] py-[60px] px-[55px]">
-        <div className="flex bg-white p-[60px]">
+        <div className="flex flex-col md:flex-row gap-4 bg-white p-[60px]">
           <div className="flex flex-col">
             <div className="flex items-center gap-[14px]">
               <Image
