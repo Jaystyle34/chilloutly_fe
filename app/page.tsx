@@ -13,11 +13,11 @@ const whys = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center h-full  justify-center bg-white ">
+    <div className="flex flex-col items-center justify-center h-full  justify-center bg-white  ">
 
-          <div className="flex flex-col pt-[20px] gap-4  bg-no-repeat bg-cover bg-center bg-[#272F57]">
+          <div className="flex flex-col  gap-4  bg-no-repeat bg-cover bg-center bg-[#272F57] bg-[url('/img/bg.svg')]">
     
-          <div className={`flex flex-col items-center gap-8 pb-[20px] sm:pb-[100px] pt-[100px] w-full  px-[20px] xlg:px-[200px] bg-white/0`}>
+          <div className={`flex flex-col items-center gap-8 pb-[20px] sm:pb-[100px] pt-[100px] w-full  px-[20px] xlg:px-[200px] bg-[#0C1332]/90 backdrop-blur-[2px]`}>
             <div className="flex flex-col gap-1">
               <span className="font-normal md:font-semibold text-white text-[25px] lg:text-[64px]/18 text-center">Create Discover, and Experience Events <span className="text-[#6F87F8]">Like Never Before</span></span>
               <span className="text-white font-normal text-[18px] text-center">From intimate gatherings to grand festivals — host, manage, and attend events effortlessly, all in one app.</span>

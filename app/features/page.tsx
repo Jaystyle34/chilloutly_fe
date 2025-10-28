@@ -4,8 +4,10 @@ import WhatCanYoudoWithChilloutly from "../components/WhatcanYouDoWithChilloutly
 
 export default function Page(){
     return (<div className="h-full w-full bg-white">
-        <div className="flex flex-col pt-[20px] gap-4  bg-no-repeat bg-fill bg-center bg-[#272F57]">
-            <span className="text-white text-center py-[100px] font-normal md:font-semibold  text-[30px] md:text-[64px]">Chilloutly Features</span>
+        <div className="flex flex-col  gap-4 bg-no-repeat bg-fill bg-center bg-[#272F57] bg-[url('/img/bg.svg')] w-full">
+            <div className="flex items-center justify-center bg-[#0C1332]/90 backdrop-blur-[2px] ">
+                <span className="text-white text-center py-[100px] font-normal md:font-semibold  text-[30px] md:text-[64px]">Chilloutly Features</span>
+            </div>
         </div>
     
         <div className="flex flex-col items-center justify-center h-full  items-start justify-center">
