@@ -12,7 +12,7 @@ const helps =[
 export default function Page(){
     return (<div className="bg-white flex flex-col">
         <div className="flex flex-col items-center  bg-no-repeat bg-cover bg-center bg-[#272F57] bg-[url('/img/bg.svg')] w-full ">
-            <div className="flex flex-col items-center bg-[#0C1332]/90 backdrop-blur-[2px] w-full h-full pt-[20px] pb-[80px]">
+            <div className="flex flex-col items-center bg-[#0C1332]/85 backdrop-blur-[1px] w-full h-full pt-[20px] pb-[80px]">
                 <span className="text-white text-center py-[100px] font-normal md:font-semibold  text-[30px] md:text-[64px]">Help Center</span>
                 <div className="flex flex-col bg-[#E9EDFE30] rounded-[7px] p-[26px] gap-[20px]">
                     <span className="text-center text-[24px] font-semibold text-[#E9EDFE]">Need help or have questions?</span>
