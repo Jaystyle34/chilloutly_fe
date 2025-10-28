@@ -13,7 +13,7 @@ const whys = [
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center h-full  justify-center bg-[#272F57] ">
+    <div className="flex flex-col items-center justify-center h-full  justify-center bg-white ">
 
           <div className="flex flex-col pt-[20px] gap-4  bg-no-repeat bg-cover bg-center bg-[#272F57]">
     
