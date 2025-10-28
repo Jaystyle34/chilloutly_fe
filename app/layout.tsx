@@ -33,13 +33,10 @@ export default function RootLayout({
         className={`antialiased w-full bg-white`}
       >
         {/* AppBar */}
-        
-          <AppBar/>
-
-       
+        <AppBar/>
         <div className="bg-white flex-1">
-             {children}
-          </div>
+          {children}
+        </div>
       </body>
     </html>
   );

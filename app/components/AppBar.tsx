@@ -30,7 +30,7 @@ export default function AppBar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="absolute top-[64px] left-0 w-full bg-white shadow-md flex flex-col items-center gap-6 py-6 md:hidden z-40">
+        <div className="absolute top-[64px] left-0 w-full bg-[#272F57] shadow-md flex flex-col items-center gap-6 py-6 md:hidden z-40">
           <HomeFeatures />
           <GetApp />
         </div>

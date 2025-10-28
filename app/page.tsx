@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center h-full  justify-center bg-black ">
 
-          <div className="flex flex-col pt-[20px] gap-4  bg-[url('/img/image1.svg')] bg-no-repeat bg-cover bg-center">
+          <div className="flex flex-col pt-[20px] gap-4  bg-no-repeat bg-cover bg-center bg-[#272F57]">
     
           <div className={` flex flex-col items-center py-[24px] pt-[100px] w-full  px-[20px] md:px-[200px] bg-white/0`}>
             <span className="font-normal md:font-semibold text-white text-[25px] mdm:text-[64px] text-center">Create Discover, and Experience Events <span className="text-[#6F87F8]">Like Never Before</span></span>

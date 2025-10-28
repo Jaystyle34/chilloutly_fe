@@ -11,7 +11,7 @@ const helps =[
 
 export default function Page(){
     return (<div className="bg-white flex flex-col">
-        <div className="flex flex-col items-center pt-[20px] pb-[80px] bg-[url('/img/image1.svg')] bg-no-repeat bg-cover bg-center bg-[#0C1332] ">
+        <div className="flex flex-col items-center pt-[20px] pb-[80px] bg-no-repeat bg-cover bg-center bg-[#272F57] ">
             <span className="text-white text-center py-[100px] font-normal md:font-semibold  text-[30px] md:text-[64px]">Help Center</span>
             <div className="flex flex-col bg-[#E9EDFE30] rounded-[7px] p-[26px] gap-[20px]">
                 <span className="text-center text-[24px] font-semibold text-[#E9EDFE]">Need help or have questions?</span>
